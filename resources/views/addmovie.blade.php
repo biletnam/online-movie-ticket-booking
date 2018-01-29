@@ -4,8 +4,10 @@
 		<title></title>
 		@include('includes/head')
 	</head>
-	<body>
-		<div class="container mt-3">
+	<body class="fixed-sn white-skin">
+		<header>@include('./includes/sidenav')</header>
+		<main>
+			<div class="container mt-3">
 			
 			<div class="row">
 				<div class="col-12 col-md-8 offset-md-2">
@@ -55,6 +57,9 @@
 						<button type="button" class="btn btn-outline-info btn-rounded waves-effect"><i class="" aria-hidden="true"></i>Submit</button>
 					</form>
 				</div>
+			</div>
+		</div>
+		</main>
 					@include('includes/scripts')
 					<script type="text/javascript">
 						// Data Picker Initialization

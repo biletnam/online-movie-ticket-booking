@@ -32,13 +32,13 @@
                 <!-- Side navigation links -->
                 <li>
                     <ul class="collapsible collapsible-accordion">
-                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>Add Movie<i class=""></i></a>
+                        <li><a class="waves-effect arrow-r" href="/addMovie"><i class="fa fa-chevron-right"></i>Add Movie</a>
                         </li>
-                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-hand-pointer-o"></i>Add Theatre<i class=""></i></a>
+                        <li><a class="waves-effect arrow-r" href="/theatre"><i class="fa fa-hand-pointer-o"></i>Add Theatre</a>
                             <div class="collapsible-body">
                         </li>
-                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-eye"></i> About<i class="fa fa-angle-down rotate-icon"></i></a>
-                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-envelope-o"></i> Contact me<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <li><a class="waves-effect arrow-r" href=""><i class="fa fa-eye"></i> About</a>
+                        <li><a class="waves-effect arrow-r" href=""><i class="fa fa-envelope-o"></i> Contact me</a>
                         </li>
                     </ul>
                 </li>
@@ -55,7 +55,7 @@
             </div>
             <!-- Breadcrumb-->
             <div class="breadcrumb-dn mr-auto">
-                <p>Material Design for Bootstrap</p>
+                <p></p>
             </div>
             <ul class="nav navbar-nav nav-flex-icons ml-auto">
                 <li class="nav-item">
